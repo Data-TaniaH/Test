@@ -18,7 +18,7 @@ def create_pool():
         pool_size=2 # Set the pool size to 2 (the maximum number of connections in the pool)
     )
 
-# Create a global pool variable
+
 pool = create_pool()
 
 
